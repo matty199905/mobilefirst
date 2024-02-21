@@ -21,7 +21,7 @@ body {
 
 /* NAV BAR */
 
-.navbar {
+.navbar {z-index: 1000;
     flex-direction: row;
     display: flex;
     height: 70px;
@@ -65,13 +65,12 @@ font-size: 25px;
 
 
 
-.show-menu {display: none;
+.show-menu {display: flex;
 flex-direction: column;
 justify-content: center;
 align-content: flex-start;
 position: absolute;
-left: -2000px;
-width: 460px;
+width: 100vw;
 height: 300px;
 gap: 20px;
 padding-left:5px;
@@ -79,7 +78,8 @@ margin-top: 60px;
 background: linear-gradient(#1f1f1f57,#1f1f1f);
 backdrop-filter: blur(3px);
 border-radius: 10px;
-transition: all 2s ease;
+transform: translateY(-1000px);
+transition: all .8s ease;
 }
 
 nav input {
@@ -97,9 +97,10 @@ color: #f0f8ff;
 text-decoration: none;}
 
 
-input:checked ~ ul {display: flex;
-left: 0px;
-transition: 2s ease;}
+input:checked ~ ul {z-index: 900;
+    display: flex;
+transform: translateY(0);
+transition: all .8s ease;}
 
 .menu img {
     width: 30px;
