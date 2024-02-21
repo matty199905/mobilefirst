@@ -1,0 +1,108 @@
+@media (min-width: 1000px) {
+
+    i {color: transparent;}
+
+    .show-menu {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        position: absolute;
+        left: 250px;
+        top: -40px;
+        height: 40px;
+        gap: 20px;
+        padding-left:5px;
+        margin-top: 60px;
+        background-color: transparent;
+       backdrop-filter: none;
+    }
+
+    .navbar li {border: none;
+    text-decoration: none;}
+
+    .navbar li:hover {color: rgb(91, 121, 255);}
+
+    h2.intro {max-width: 650px;
+    font-size: 40px;
+margin: auto;}
+h3.intro {max-width: 700px;
+margin: auto;}
+
+button.probar {width: 200px;
+height: 60px;
+margin: 20px auto;}
+
+img.intro {max-width: 700px;
+max-height: 500px;}
+
+h2.descripcion {font-size: 35px;}
+h3.descripcion {max-width: 700px;
+margin: 30px auto;
+}
+
+img.imagen--descripcion {margin-top: 80px;
+margin-left: 85px;
+padding-left: 100px;
+height: 400px;
+
+}
+
+div.container-descripcion { width: 300px;
+position: absolute;
+right: 100px;
+top: 1025px;
+padding-right: 100px;}
+h3.descripcion {text-align: center;}
+
+section.container-imagenes {flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    min-width: 300px;
+    margin-top: -250px;
+}
+div.container-imagenes1 {position: absolute;
+left: -200px;
+top: 600px;}
+div.container-imagenes2 {position: absolute;
+right: -200px;
+top: 600px;}
+p.imagenes {margin: 120px auto;}
+h2.imagenes {margin-bottom: -200px;
+font-size: 40px;
+font-weight: 500;
+max-width: 600px;}
+p.cliceneso {padding-bottom: 40px;}
+p.yaterminaste {padding-bottom: 30px;}
+
+section.testimonios {flex-wrap: wrap-reverse;
+flex-direction: row;
+position: relative;}
+
+h2.titulo-testimonios {margin: auto;
+position: absolute;
+top: -90px;}
+
+div.empezarahora {flex-direction: row;
+justify-content: center ;
+align-items: center;
+align-content: center;
+}
+button.accion {margin: 80px;
+height: 100px;}
+
+div.contacto {flex-direction: row;
+justify-content: space-around;
+align-items: center;
+height: 400px;
+}
+
+div.direccion-telefono {flex-direction: row;
+gap: 90px;
+justify-content: space-between;
+padding-right: 100px;
+align-items: center;
+height: 200px;}
+
+
+    
+}
